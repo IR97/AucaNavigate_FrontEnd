@@ -1,0 +1,120 @@
+/* General Container Styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
+  
+  /* Title Styling */
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  /* Section Styling */
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  /* Event List Styling */
+  .event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .event-button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .event-button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .event-button.selected {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Student List Styling */
+  .student-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .student-item {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Search Box Styling */
+  .search-box {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .search-results h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .event-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Message Styling */
+  .message {
+    color: #888;
+    font-style: italic;
+  }
+  h20 {
+    color: #4880c0;
+    font-weight: 1000;
+    font-size: 30px;
+    margin-top: +60px;
+    margin-bottom: 60px;
+    margin-left: 315px;
+    text-align: center; /* Ensure subheading is left-aligned */
+}
+h21 {
+    color: #02ae0e;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: +80px;
+    margin-left: 0px;
+    text-align: center; /* Ensure subheading is left-aligned */
+}
+h22 {
+    color: #2b4460;
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 0px;
+}

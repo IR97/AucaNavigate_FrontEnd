@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a49c5;
+    height: 70px;
+    color: white;
+    padding: 10px 20px;
+    vertical-align: middle; /* Align icon with text */
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    margin-right: 10px;
+    border-radius: 50px;
+  }
+  
+  .header a {
+    color: white;
+    font-weight: 500;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .header a:hover {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(252, 195, 63);
+    transition: transform 0.4s;
+
+  }
+
+  .announcement-icon {
+    margin-right: 5px; /* Add some space between icon and text */
+    font-size: 1.2em;   /* Adjust the size */
+    margin-left: 680px;
+    
+}
+
+
+.unread-count {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 568px; /* Adjust as needed */
+  background-color: red;
+  color: white;
+  padding: 0.1em 0.4em; /* Adjust padding for size */
+  border-radius: 25%;
+  font-size: 0.6em;  /* Smaller font size */
+  min-width: 1.2em;   /* Adjust min-width to fit content */
+  text-align: center;
+  font-weight: bold; /* Add font-weight for exclamation mark */
+  line-height: 1; /* Adjust line-height to properly center exclamation mark */
+}
+  

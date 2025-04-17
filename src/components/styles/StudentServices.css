@@ -1,0 +1,98 @@
+/* src/components/styles/StudentServices.css */
+
+.page-container {
+    width: 1000px;
+    margin: 0 auto; /* Center the container */
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.service-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    position: relative; /* For overlay positioning */
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: filter 0.3s ease; /* Smooth blur */
+}
+
+.service-card:hover .service-image {
+    filter: blur(3px); /* Adjust blur amount */
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 123, 255, 0.3); /* Transparent blue (adjust opacity) */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth opacity transition */
+    pointer-events: none;
+}
+
+.service-card:hover .image-overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+
+.service-content {
+    padding: 20px;
+}
+
+.service-title {
+    margin-bottom: 10px;
+    color: #2c3e50; /* Title color */
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.service-card p { /* Paragraph (description) styles */
+    text-align: left;
+}
+
+.contact-info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone, .email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.phone i, .email i {
+    margin-right: 5px;
+}
+
+.phone strong, .email strong, .email {
+    color: #007bff; /* Contact text color */
+    text-decoration: none;
+    font-weight: 300; /* Lighter font weight for contacts */
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+
+/* Removed all individual service styles (health-title, etc.) */
+/* Use the general .service-title, .phone strong, .email styles instead */

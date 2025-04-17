@@ -1,0 +1,5 @@
+.register-link {
+    margin-left: 10px; /* Adds space between the links */
+    text-decoration: underline;
+    color: rgb(211, 137, 0);
+  }

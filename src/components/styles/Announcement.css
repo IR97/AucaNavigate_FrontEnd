@@ -1,0 +1,46 @@
+/* Announcements.css */
+.announcements-container { /* Style the container */
+    background-color: rgba(255, 255, 255, 0.705);
+    height: 713px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0px auto; /* Center the announcements section */
+    max-width: 1700px; /* Set a maximum width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .announcements-container h2 {
+      text-align: center;
+      margin-bottom: 1em;
+  }
+  
+  .announcements-container ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .announcements-container li {
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #111a68;
+    max-width: 1700px;
+    padding-bottom: 10px;
+  }
+  
+  .announcements-container button {
+    padding: 5px 10px;
+    background-color: #224ca7;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .meet-link {
+    margin-left: 10px; /* Adds space between the links */
+    text-decoration: underline;
+    color: rgb(1, 52, 100);
+    font-weight: 600;
+  }

@@ -1,0 +1,16 @@
+/* Video.css (Create this file for video styling) */
+.video-container {
+    margin-bottom: 1em; /* Space between videos */
+}
+
+.video-player {
+    width: 100%; /* Make video responsive */
+    max-width: 500px; /* Limit maximum width */
+    height: auto;
+}
+
+.video-title { /* Style for video title (optional) */
+    font-size: 0.9em;
+    color: #777;
+    text-align: center;
+}
